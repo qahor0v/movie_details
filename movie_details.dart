@@ -3,14 +3,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:iconly/iconly.dart';
-import 'package:kinor/constants/app_colors.dart';
-import 'package:kinor/mobile_ui/screens/detail_screen/persisent_widget.dart';
-import 'package:kinor/mobile_ui/screens/helper/sized_box.dart';
-import 'package:kinor/mobile_ui/screens/helper/sliver_sized_box.dart';
-import 'package:kinor/mobile_ui/widgets/buttons/rating_movie.dart';
-import 'package:kinor/mobile_ui/widgets/buttons/text_button.dart';
 import 'package:snapping_sheet/snapping_sheet.dart';
-import '../../constants/test_sources.dart';
 
 final hideTitle = StateProvider<bool>((ref) {
   return false;
